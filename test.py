@@ -42,7 +42,7 @@ def u4(pris):
         print("Sälh bil och cykla istället")
 
 def u5(year):
-    if year%4==0 && year%400==0:
+    if x := year%4==0 or x and year%400==0:
         print("{} är ett skottår".format(year))
 
 def u6(age,inkomst,betalningsanmärkning):
